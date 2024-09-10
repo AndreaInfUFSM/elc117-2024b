@@ -33,7 +33,7 @@
 ## Aulas
 
 
-<table class="table table-bordered table-hover table-condensed"><thead><tr><th title="Field #0">Aula</th><th title="Field #1">Data</th><th title="Field #2">Dia</th><th title="Field #3">CH</th><th title="Field #4">Assunto/Atividade</th></tr></thead><tbody>
+<table class="table table-bordered table-hover table-condensed"><thead><tr><th title="Field #0">Aula</th><th title="Field #1">Data</th><th title="Field #2">Dia</th><th title="Field #4">Assunto/Atividade</th></tr></thead><tbody>
 <tr>
 <td align="right">1</td>
 <td>10/09/2024</td>
