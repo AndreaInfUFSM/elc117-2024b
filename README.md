@@ -354,5 +354,5 @@ Avaliações finais / atividades de recuperação de avaliações: 17/12 e 19/12
    - [2.4 Class Definition](https://runestone.academy/ns/books/published/javajavajava/sec-classdef.html)  
      Seção sobre definição de classes, com exemplos e exercícios
  - Alura. [Java e Orientação a Objetos](https://www.alura.com.br/apostila-java-orientacao-objetos)  
-   Apostila gratuita.
+   Apostila gratuita (material velhinho, mas com conceitos básicos que permanecem válidos).
  - University of Helsinki. [Java Programming - A free online course on learning Java](https://java-programming.mooc.fi/)
