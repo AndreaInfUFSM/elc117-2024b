@@ -69,7 +69,7 @@
 <td>19/09/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação funcional.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/04/README.md">Introdução à programação funcional em Haskell: aplicando e definindo funções simples, funções tipadas, listas, funções de alta ordem (higher order), prática haskell01 no GitHub Codespaces</a></li>
 </ul></td>
 </tr>
 
