@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Declarative Example</title>
+</head>
+<body>
+  <div id="root"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script  src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+      function App() {
+        const [items, setItems] = React.useState(['Item 1', 'Item 2']);
+       	 
+        function addItem() {
+          setItems([...items, 'New Item']);
+        }
+        return (
+          <div>
+            <button onClick={addItem}>Add Item</button>
+            <ul>
+              {items.map((item, index) => <li key={index}>{item}</li>)}
+            </ul>
+          </div>
+        );
+      }   	 
+      ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
+</html>
+

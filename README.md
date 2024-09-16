@@ -22,8 +22,9 @@
  - Professora: Andrea Schwertner Charão (andrea@inf.ufsm.br)  
  - Horários: terças e quintas, das 10:30 às 12:30, salas 260 (Anexo A - CT) e 334 (Prédio 07 - CT)
  - [Ementa](https://www.ufsm.br/ementario/disciplinas/ELC117): informações institucionais sobre objetivos, programa e bibliografia.
+ - [Plano de ensino](https://portal.ufsm.br/documentos/publico/documento.html?id=15176214): planejamento de atividades, sujeito a ajustes.
  - As aulas serão presenciais, com registro de frequência. 
-- Usaremos estratégias de aprendizagem ativa, incluindo dinâmicas/discussões, práticas com resolução de problemas e projetos colaborativos de programação, alternados com momentos expositivos sempre que necessário.
+ - Usaremos estratégias de aprendizagem ativa, incluindo dinâmicas/discussões, práticas com resolução de problemas e projetos colaborativos de programação, alternados com momentos expositivos sempre que necessário.
  - Todo o material da disciplina será disponibilizado via GitHub e as entregas de exercícios e trabalhos também serão no GitHub. 
 
 
@@ -50,7 +51,7 @@ Dinâmica de acolhimento da turma.</li>
 <td>12/09/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Visão geral dos paradigmas de programação.</li>
+<li><a href="classes/02">Atividade em grupo sobre compreensão de código.</a></li>
 </ul></td>
 </tr>
 
@@ -59,7 +60,7 @@ Dinâmica de acolhimento da turma.</li>
 <td>17/09/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação funcional.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/03/README.md">Introdução à programação funcional.</a></li>
 </ul></td>
 </tr>
 
