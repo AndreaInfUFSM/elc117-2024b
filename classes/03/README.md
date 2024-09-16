@@ -21,7 +21,7 @@ nvm use v14.21.1
 liascript-devserver --input README.md --port 3001 --live
 https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/master/classes/03/README.md
 -->
-
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/03/README.md)
 
 # Programação Funcional
 
