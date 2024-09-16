@@ -40,9 +40,9 @@
 <td>10/09/2024</td>
 <td>Ter</td>
 <td><ul>
+<li><a href="https://forms.gle/FHQ9ckg12UhF5pTB8">Questionário (antes da aula).</a></li>
 <li>Apresentação da disciplina.</li>
-<li>
-Dinâmica de acolhimento da turma.</li>
+<li>Dinâmica de acolhimento da turma.</li>
 </ul></td>
 </tr>
 
