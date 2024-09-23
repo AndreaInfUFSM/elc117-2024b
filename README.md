@@ -84,7 +84,8 @@
 <td>24/09/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação funcional.</li>
+<li>Continuação da prática da aula passada</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/05/README.md">Quizzes sobre programação funcional em Haskell</a></li>
 </ul></td>
 </tr>
 
@@ -93,9 +94,12 @@
 <td>26/09/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação funcional.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/06/README.md">Mais sobre funções de alta ordem (map, filter, foldr1/foldl1, zipWith), funções anônimas/lambda, tuplas, prática no Codespaces
+</a></li>
 </ul></td>
 </tr>
+
+
 
 <tr>
 <td align="right">7</td>
