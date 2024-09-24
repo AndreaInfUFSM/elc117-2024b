@@ -86,6 +86,9 @@
 <td><ul>
 <li>Continuação da prática da aula passada</li>
 <li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/05/README.md">Quizzes sobre programação funcional em Haskell</a></li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-jalobler7">Analisando um código: servidor de jogo da forca em Haskell</a> (João Antônio)</li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-guzttx">Lista MyFunctions1.hs</a> (Gustavo Teixeira)</li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-LeonardoBalk">Lista MyFunctions2.hs</a> (Leonardo Balk)</li>
 </ul></td>
 </tr>
 
