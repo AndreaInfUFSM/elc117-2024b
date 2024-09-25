@@ -79,7 +79,7 @@ A imagem animada ao lado mostra a função `map` aplicando a função f(x) = x +
 
 ```haskell
 ghci> add x y = x + y
-ghci> map (add 2) [0, 5, 8, 3, 2, 1]
+ghci> map (add 1) [0, 5, 8, 3, 2, 1]
 [1,6,9,4,3,2]
 ```
 
