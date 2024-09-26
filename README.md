@@ -97,8 +97,13 @@
 <td>26/09/2024</td>
 <td>Qui</td>
 <td><ul>
-<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/06/README.md">Mais sobre funções de alta ordem (map, filter, foldr1/foldl1, zipWith), funções anônimas/lambda, tuplas, prática no Codespaces
-</a></li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/06/README.md">Mais sobre programação funcional em Haskell</a>: funções de alta ordem (map, filter, foldr1/foldl1, zipWith), funções anônimas/lambda, tuplas, prática no Codespaces
+</li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-JP-Righi">Analisando um código: ray casting no code.world</a> (João Pedro Righi)</li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-thejhwonm">Funções lambda</a> (João Pedro Peranconi)</li>
+
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-Piekala">Tuplas</a> (Leonardo Piekala)</li>
+
 </ul></td>
 </tr>
 
