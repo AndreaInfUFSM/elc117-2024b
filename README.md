@@ -114,7 +114,9 @@
 <td>01/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação funcional (sem lab).</li>
+<li>Atividade online devido a <a href="https://www.ufsm.br/2024/09/30/nota-atividades-administrativas-e-academicas-presenciais-suspensas-ate-01-de-outubro">suspensão de atividades presenciais</a></li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/07/README.md">Programas maiores em Haskell</a>: uso de let e where, exemplo de validação de CPF, prática no Codespaces</li>
+<li>Apresentações de exercícios (online)</li>
 </ul></td>
 </tr>
 
