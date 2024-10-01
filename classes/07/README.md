@@ -428,7 +428,10 @@ main = do
 
 ## Prática
 
-Aguarde link para atividade no GitHub Classroom.
+- Esta prática será feita em um novo repositório no GitHub Codespaces. 
+- Para criar o repositório, acesse: https://classroom.github.com/a/Tjg18Nz_ (aguarde todo o processo de criação - leva um tempo na primeira vez)
+- Você deverá completar as 3 questões no arquivo Main.hs. A compreensão do código faz parte do exercício.
+- É normal que sua solução não funcione da primeira vez. Para resolver problemas, você pode criar outro código menor e fazer pequenos testes da solução no GHCi.
 
 
 
