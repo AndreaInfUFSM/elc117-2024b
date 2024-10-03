@@ -354,7 +354,7 @@ funq3 $ concat ["In", "the", "world", "of", "computing,", "the", "only", "consta
 Qual será o resultado?
 
 ``` haskell
-[("React",2013),("Vue",2014)]
+funq4 [("React",2013),("Vue",2014)]
 ```
 
 
