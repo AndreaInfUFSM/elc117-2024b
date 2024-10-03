@@ -125,7 +125,7 @@
 <td>03/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação funcional (sem lab).</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/08/README.md">Exercícios, muitos exercícios!</a></li>
 </ul></td>
 </tr>
 
