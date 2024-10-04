@@ -134,7 +134,7 @@
 <td>08/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação funcional.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/09/README.md">Mais sobre programação funcional em Haskell</a>: geração de listas, list comprehension, quizzes, prática no Codespaces</li>
 </ul></td>
 </tr>
 
