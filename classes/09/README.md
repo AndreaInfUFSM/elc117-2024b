@@ -507,7 +507,7 @@ Tente responder estas questões **sem consultar nenhum material**. Caso responda
    zipWith (\x y -> x + y) [1,2,3] (take 3 [11..])
    ```
 
-   - [(x)] [12,14,15]
+   - [(x)] [12,14,16]
    - [( )] [11,12,13]
    - [[?]] zipWith recebe uma função e 2 listas 
 
@@ -581,7 +581,7 @@ Caso responda incorretamente, teste os códigos por partes no interpretador inte
    foldl1 (+) [y | (x,y) <- [(1,2), (3,4)]]
    ```
     
-
+   [[6]]
 
 
 5. Qual o resultado das linhas de código abaixo executadas no GHCi?
