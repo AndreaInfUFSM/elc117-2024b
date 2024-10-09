@@ -38,7 +38,7 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfU
 ### Exemplo mínimo
 
 
-Arquivo: [src/Main.hs](src/Main.hs)
+Arquivo: [src/Main.hs](src/helloScotty.hs)
 
 ```
 import Web.Scotty
@@ -73,13 +73,13 @@ cabal install --lib scotty wai-extra random text
 Execução como script:
 
 ```
-runhaskell Main.hs
+runhaskell helloScotty.hs
 ```
 
 Opcional, com geração de executável:
 
 ```
-ghc -threaded -o mywebapp Main.hs
+ghc -threaded -o mywebapp helloScotty.hs
 ./mywebapp
 ```
 

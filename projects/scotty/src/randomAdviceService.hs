@@ -4,7 +4,7 @@ import Web.Scotty
 import Network.Wai.Middleware.RequestLogger (logStdoutDev)
 import System.Random (randomRIO)
 import Control.Monad.IO.Class (liftIO)
-import Data.Text.Lazy (Text, pack, unpack)
+import Data.Text.Lazy (Text)
 
 -- List of random advices
 -- From https://api.adviceslip.com/advice

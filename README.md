@@ -143,7 +143,8 @@
 <td>10/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação lógica.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/10/README.md">Orientações sobre atividade personalizada</a></li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/projects/scotty/README.md">Exemplo de serviço Web em Haskell</a></li>
 </ul></td>
 </tr>
 
