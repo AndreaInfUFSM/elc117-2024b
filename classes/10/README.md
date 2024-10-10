@@ -66,7 +66,7 @@ Estrutura e conteúdo:
 1. Identificação: nome e curso
 2. Tema/objetivo: descrição do tema/objetivo do trabalho, conforme a proposta validada
 3. Processo de desenvolvimento: comentários sobre o desenvolvimento, incluindo fontes consultadas e versões com erros
-4. Resultado final: demonstrar execução em GIF ou vídeo curto (máximo 60s)
+4. Resultado final: demonstrar execução em GIF animado ou vídeo curto (máximo 60s)
 5. Referências e créditos (incluindo alguns prompts, se aplicável)
 
 ## Exemplos gerais de temas
@@ -78,22 +78,24 @@ Avance para ver exemplos de temas...
 - Tema: desenvolver um serviço web simples que responda a requisições get/post usando Scotty
 - Scotty é um framework em Haskell para construção backend web (inclui seu próprio servidor HTTP)
 - Ideias de serviços:
+
   - Somente leitura (get): conversões, sorteios, buscas, quizzes, etc.
   - Leitura / escrita (get/post, com persistência em arquivo): leaderboard para game, log para quizzes/games, listas de tarefas, etc.
+
 - Ver mais sobre isso [aqui](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/projects/scotty/README.md)
 
 ### Experiências com outros recursos de programação funcional / Haskell
 
-- Tema: pesquisar e realizar exercícios com recursos de programação funcional em Haskell não vistos em aula
+- Tema: pesquisar e realizar exercícios com recursos de programação funcional em Haskell não explorados em aula
 
 - Exemplos de recursos:
 
   - Pattern matching: https://learnyouahaskell.com/syntax-in-functions#pattern-matching
   - Types and typeclasses: https://learnyouahaskell.com/types-and-typeclasses
   - Function composition: https://www.youtube.com/watch?v=dR_aUQXw5fs
-  - I/O: https://learnyouahaskell.com/input-and-output
+  - I/O (de preferência com arquivos): https://learnyouahaskell.com/input-and-output
   - Estruturas de dados: https://hackage.haskell.org/package/containers-0.4.0.0
-  - Teste automatizado: https://github.com/hspec/HUnit 
+  - Teste automatizado: https://github.com/hspec/HUnit (ou QuickCheck, entre outros)
   - Música em Haskell: https://www.youtube.com/watch?v=FYTZkE5BZ-0
   - Bibliotecas em Haskell nas mais variadas áreas: https://hackage.haskell.org/packages/
   - Gráficos 2D e animações: https://github.com/benl23x5/gloss
@@ -104,7 +106,8 @@ Avance para ver exemplos de temas...
 - Tema: comparar códigos em Haskell com outras linguagens funcionais ou imperativas
 - Resolva exercícios que foram feitos em Haskell em outras linguagens de programação funcional como Clojure ou Elixir, por exemplo
 - Compare também com códigos em linguagens predominantemente imperativas
-- Atenção: obrigatório usar ambiente(s) de execução, com instalação local ou em nuvem (não é só gerar código!)
+- Seu README.md precisará ter muitos comentários e referências
+- Atenção: lembre que é obrigatório demonstrar execução, com instalação local ou em nuvem (não é só gerar código!)
 
 ### Um programa pra chamar de seu
 
