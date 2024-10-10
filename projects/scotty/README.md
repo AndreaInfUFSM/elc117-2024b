@@ -91,12 +91,24 @@ ghc -threaded -o mywebapp helloScotty.hs
 
 ### Teste
 
-Desenvolvimento / teste no Codespaces:
+Exemplos de URLs ativas quando o Codespace estiver ativo (substituir o servidor pelo nome que for gerado para o seu codespace):
+
+https://ideal-parakeet-p55v4xx7vx536pgw-3000.app.github.dev/hello
+https://ideal-parakeet-p55v4xx7vx536pgw-3000.app.github.dev/advice
+https://ideal-parakeet-p55v4xx7vx536pgw-3000.app.github.dev/poi
+https://ideal-parakeet-p55v4xx7vx536pgw-3000.app.github.dev/poilist
+https://ideal-parakeet-p55v4xx7vx536pgw-3000.app.github.dev/near/-29.71689/-53.72968
+
+
+### Desenvolvimento / teste no Codespaces:
+
+
+
 
 ![](img/run-in-codespace-1.gif)
 
 
-Desenvolvimento / teste local:
+### Desenvolvimento / teste local:
 
 Opção 1: Abra um navegador e digite a URL: `http://localhost:3000/advice`
 
