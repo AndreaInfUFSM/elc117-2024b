@@ -1,9 +1,14 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 
--- ghc -threaded -o mywebapp Main.hs
+-- Run as:
+-- runhaskell helloScotty.hs
+-- Or compile and run:
+-- ghc -threaded -o mywebapp helloScotty.hs
 -- ./mywebapp
+-- Test locally:
 -- curl http://localhost:3000/hello
+-- Test in Codespaces (replace the server by your codespace URL):
 -- https://ideal-parakeet-p55v4xx7vx536pgw-3000.app.github.dev/hello
 
 import Web.Scotty
