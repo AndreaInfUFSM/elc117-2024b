@@ -114,7 +114,9 @@
 <td>01/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação funcional (sem lab).</li>
+<li>Atividade online devido a <a href="https://www.ufsm.br/2024/09/30/nota-atividades-administrativas-e-academicas-presenciais-suspensas-ate-01-de-outubro">suspensão de atividades presenciais</a></li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/07/README.md">Programas maiores em Haskell</a>: uso de let e where, exemplo de validação de CPF, prática no Codespaces</li>
+<li>Apresentações de exercícios (online)</li>
 </ul></td>
 </tr>
 
@@ -123,7 +125,7 @@
 <td>03/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação funcional (sem lab).</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/08/README.md">Exercícios, muitos exercícios!</a></li>
 </ul></td>
 </tr>
 
@@ -132,7 +134,7 @@
 <td>08/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação funcional.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/09/README.md">Mais sobre programação funcional em Haskell</a>: geração de listas, list comprehension, quizzes, prática no Codespaces</li>
 </ul></td>
 </tr>
 
@@ -141,7 +143,8 @@
 <td>10/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação lógica.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/10/README.md">Orientações sobre atividade personalizada</a></li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/projects/scotty/README.md">Exemplo de serviço Web em Haskell</a></li>
 </ul></td>
 </tr>
 

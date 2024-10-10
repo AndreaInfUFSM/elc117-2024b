@@ -17,6 +17,7 @@ testCases =
       TestCase $ assertEqual "Test 1 for itemize" ["<li>Fulano</li>","<li>Beltrano</li>"] (itemize ["Fulano","Beltrano"] ),      
       TestCase $ assertEqual "Test 2 for itemize" [] (itemize []), 
       TestCase $ assertEqual "Test 1 for bigCircles" [5.0,6.0] (bigCircles 16 [2,5,6] ),
+      TestCase $ assertEqual "Test 1 for bigCircles" [2.0,5.0,6.0] (bigCircles pi [2,5,6] ),
       TestCase $ assertEqual "Test 2 for bigCircles" [] (bigCircles 2 []),
       TestCase $ assertEqual "Test 1 for quarentine" [("Beltrano",39.0)] (quarentine [("Fulano", 37),("Beltrano", 39)]),
       TestCase $ assertEqual "Test 2 for quarentine" [] (quarentine []),
