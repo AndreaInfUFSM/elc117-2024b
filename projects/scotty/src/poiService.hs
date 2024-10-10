@@ -23,10 +23,10 @@ poiList = [("Centro de Tecnologia", -29.713318, -53.71663),
 
 
 
-# Simple functions to convert our POIs to JSON-formatted strings
-# For more robust JSON manipulation, see Aeson (a library for JSON manipulation): 
-# https://hackage.haskell.org/package/aeson
-# https://williamyaoh.com/posts/2019-10-19-a-cheatsheet-to-json-handling.html
+-- Simple functions to convert our POIs to JSON-formatted strings
+-- For more robust JSON manipulation, see Aeson (a library for JSON manipulation): 
+-- https://hackage.haskell.org/package/aeson
+-- https://williamyaoh.com/posts/2019-10-19-a-cheatsheet-to-json-handling.html
 poiJsonFormat :: String
 poiJsonFormat = "{\"poi\": \"%s\", \"latitude\": \"%s\", \"longitude\": \"%s\"}"
 
