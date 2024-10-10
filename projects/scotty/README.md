@@ -34,6 +34,9 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfU
 
 ## Scotty
 
+- Scotty é um framework em Haskell para construção backend web
+- Internamente, contém um servidor HTTP
+
 
 ### Exemplo mínimo
 
@@ -58,11 +61,12 @@ main = scotty 3000 $ do
 
 - [randomAdviceService.hs](src/randomAdviceService.hs)
 - [randomAdviceServiceJson.hs](src/randomAdviceServiceJson.hs)
+- [poiService.hs](src/poiService.hs)
+
 
 ### Instalação
 
 ```
-sudo apt install cabal-install
 cabal update
 cabal install --lib scotty wai-extra random text
 ```
@@ -86,6 +90,14 @@ ghc -threaded -o mywebapp helloScotty.hs
 
 
 ### Teste
+
+
+
+Desenvolvimento / teste local:
+
+Opção 1: Abra um navegador e digite a URL: `http://localhost:3000/advice`
+
+Opção 2: Use o programa `curl` no terminal: 
 
 ```
 curl http://localhost:3000/advice
