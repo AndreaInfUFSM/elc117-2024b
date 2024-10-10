@@ -43,7 +43,7 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfU
 
 Arquivo: [src/Main.hs](src/helloScotty.hs)
 
-```
+``` haskell
 import Web.Scotty
 import Network.Wai.Middleware.RequestLogger (logStdoutDev)
 

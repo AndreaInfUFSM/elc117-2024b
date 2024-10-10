@@ -22,6 +22,11 @@ poiList = [("Centro de Tecnologia", -29.713318, -53.71663),
            ("Casa do Estudante Universitário - CEU II", -29.71801, -53.71465)]
 
 
+
+# Simple functions to convert our POIs to JSON-formatted strings
+# For more robust JSON manipulation, see Aeson (a library for JSON manipulation): 
+# https://hackage.haskell.org/package/aeson
+# https://williamyaoh.com/posts/2019-10-19-a-cheatsheet-to-json-handling.html
 poiJsonFormat :: String
 poiJsonFormat = "{\"poi\": \"%s\", \"latitude\": \"%s\", \"longitude\": \"%s\"}"
 
@@ -55,6 +60,7 @@ main = scotty 3000 $ do
 
     -- Route to return a hardcoded, sample POI
     get "/poi" $ do
+        -- We set the header manually because we are returning a text (manually formatted as json)
         setHeader "Content-Type" "application/json"
         let response = poiToJSONString ("Restaurante Universitário 2", -29.71400, -53.71937)
         text (pack response)
@@ -65,8 +71,7 @@ main = scotty 3000 $ do
         let response = poiListToJSONString poiList
         text (pack response)    
 
-
-    -- For example: http://localhost:3000/nearlocation/-29.71689/-53.72968
+    -- For example: http://localhost:3000/near/-29.71689/-53.72968
     get "/near/:lat/:lon" $ do
         setHeader "Content-Type" "application/json"
         givenLat <- pathParam "lat" :: ActionM Double
