@@ -91,6 +91,9 @@ ghc -threaded -o mywebapp helloScotty.hs
 
 ### Teste
 
+Desenvolvimento / teste no Codespaces:
+
+![](img/run-in-codespace-1.gif)
 
 
 Desenvolvimento / teste local:
