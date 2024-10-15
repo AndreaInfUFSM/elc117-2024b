@@ -197,9 +197,9 @@ Deduções?!
   - vários ambientes em nuvem, incluindo Codespaces
 
 
-### Prolog no interpretador
+### Prolog no Codespaces
 
-- Vamos utilizar o SWI-Prolog no Codespaces
+- Vamos utilizar o interpretador do SWI-Prolog no Codespaces
 - Para criar seu Codespace, acesse: https://classroom.github.com/a/h8Ij4E9P
 
 
