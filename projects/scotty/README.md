@@ -34,7 +34,7 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfU
 
 ## Scotty
 
-- Scotty é um framework em Haskell para construção backend web
+- Scotty é uma biblioteca em Haskell para construção de backend web
 - Internamente, contém um servidor HTTP
 
 

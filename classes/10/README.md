@@ -76,7 +76,7 @@ Avance para ver exemplos de temas...
 ### Serviço web com Scotty
 
 - Tema: desenvolver um serviço web simples que responda a requisições get/post usando Scotty
-- Scotty é um framework em Haskell para construção backend web (inclui seu próprio servidor HTTP)
+- Scotty é uma biblioteca em Haskell para construção de backend web (inclui seu próprio servidor HTTP)
 - Ideias de serviços:
 
   - Somente leitura (get): conversões, sorteios, buscas, quizzes, etc.

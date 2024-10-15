@@ -102,7 +102,7 @@
 <li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-JP-Righi">Analisando um código: ray casting no code.world</a> (João Pedro Righi)</li>
 <li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-thejhwonm">Funções lambda</a> (João Pedro Peranconi)</li>
 
-<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-Piekala">Tuplas</a> (Leonardo Piekala)</li>
+
 
 </ul></td>
 </tr>
@@ -116,7 +116,13 @@
 <td><ul>
 <li>Atividade online devido a <a href="https://www.ufsm.br/2024/09/30/nota-atividades-administrativas-e-academicas-presenciais-suspensas-ate-01-de-outubro">suspensão de atividades presenciais</a></li>
 <li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/07/README.md">Programas maiores em Haskell</a>: uso de let e where, exemplo de validação de CPF, prática no Codespaces</li>
-<li>Apresentações de exercícios (online)</li>
+<li>Apresentações de exercícios (online):
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-Akunozz">Breno</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-guiziifs">Guilherme</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-nathoalmeida">Nathália</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-Talescruzs">Tales</a>  
+
+</li>
 </ul></td>
 </tr>
 
@@ -126,6 +132,15 @@
 <td>Qui</td>
 <td><ul>
 <li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/08/README.md">Exercícios, muitos exercícios!</a></li>
+<li>Apresentações de exercícios: 
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-leowinch">Leonardo Dalla Nora</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-ThurarBogacki">Arthur</a> |    
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-WeslleyHBM">Weslley</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-ligiaml">Lígia</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-joselitosn">Vinicios</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-victormsferreira">Victor</a> |
+    <a href="https://github.com/elc117/apresentacao-bim1-2024b-MiguelMironSilva">Miguel</a>     
+</li>
 </ul></td>
 </tr>
 
@@ -135,6 +150,9 @@
 <td>Ter</td>
 <td><ul>
 <li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/09/README.md">Mais sobre programação funcional em Haskell</a>: geração de listas, list comprehension, quizzes, prática no Codespaces</li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-luizamanoelle">List comprehension X map</a> (Luiza)</li>
+<li>Apresentação: <a href="https://github.com/elc117/apresentacao-bim1-2024b-NicholasZortea">List comprehension X filter</a> (Nicholas)</li>
+
 </ul></td>
 </tr>
 
@@ -153,7 +171,7 @@
 <td>15/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação lógica.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/11/README.md">Programação lógica com Prolog.</a></li>
 </ul></td>
 </tr>
 
