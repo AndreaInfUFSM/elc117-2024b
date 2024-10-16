@@ -171,7 +171,7 @@
 <td>15/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/11/README.md">Programação lógica com Prolog.</a></li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/11/README.md">Programação lógica com Prolog</a>: fatos, regras e consultas</li>
 </ul></td>
 </tr>
 
@@ -180,7 +180,7 @@
 <td>17/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação lógica.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/12/README.md">Programação lógica com Prolog</a>: unificação, listas, puzzles, prática com base de filmes</li>
 </ul></td>
 </tr>
 
