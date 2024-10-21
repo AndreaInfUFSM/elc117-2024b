@@ -189,7 +189,7 @@
 <td>22/10/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação lógica.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/13/README.md">Programação lógica com Prolog</a>: exercícios com consultas, regras e listas</li>
 </ul></td>
 </tr>
 
