@@ -44,8 +44,8 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfU
 
 ## Quizzes sobre a prática
 
-- Questões sobre a parte [Escreva suas consultas](#primeira-parte-consultas)
-- Questões sobre a parte: [Adicione regras](#segunda-parte-regras)
+- Questões sobre a parte [Escreva suas consultas](#3)
+- Questões sobre a parte: [Adicione regras](#4)
 
 ### Primeira parte: consultas
 
