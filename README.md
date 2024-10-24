@@ -198,7 +198,7 @@
 <td>24/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Avaliação.</li>
+<li>Avaliação: prova de compreensão de código (sala 260).</li>
 </ul></td>
 </tr>
 
@@ -364,7 +364,7 @@ Primeiro bimestre:
 
 - Prova de leitura/escrita de código (peso 5): 24/10
 - Apresentação de exercícios (peso 2)
-- Produção individual personalizada (peso 3)
+- [Produção individual personalizada (peso 3)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/10/README.md): 27/10
 
 Segundo bimestre:
 
