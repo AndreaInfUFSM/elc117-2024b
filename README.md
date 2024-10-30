@@ -216,7 +216,7 @@
 <td>31/10/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação orientada a objetos.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/16/README.md">Programação orientada a objetos</a>: introdução usando Java</li>
 </ul></td>
 </tr>
 
