@@ -1,0 +1,34 @@
+# Haskell
+*.hi        # Haskell interface files
+*.o         # Haskell object files
+*.ghc_*     # GHC temporary files
+
+# SWI-Prolog
+*.plx       # Prolog compiled files
+*.pwi       # Prolog workspace files
+*.pdb       # Prolog database files
+
+# Java
+*.class     # Compiled Java class files
+*.jar       # Java Archive files
+*.war       # Web Archive files
+*.ear       # Enterprise Archive files
+*.log       # Log files
+*.out       # Output files
+
+# Python
+__pycache__/     # Python bytecode cache
+*.py[cod]        # Compiled Python files
+*.pyo            # Optimized Python files
+*.pyd            # Python dynamic module
+*.egg            # Python egg files
+*.egg-info/      # Egg metadata directory
+*.log            # Log files
+
+# General
+*.tmp       # Temporary files
+*.temp      # Temporary files
+*.swp       # Swap files created by text editors
+*.bak       # Backup files
+*.DS_Store   # macOS Finder files
+*.out       # Output files
