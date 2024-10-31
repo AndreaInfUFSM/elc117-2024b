@@ -50,6 +50,8 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfU
   - Reuso de código: evitar redundância, aproveitar soluções já desenvolvidas
   - Organização do código: código organizado para melhor compreensão / manutenção
 
+![](img/oo-animated-poster.gif)
+
 ## Procedural X OO
 
 Contraste entre programação procedural e programação orientada a objetos:
@@ -156,7 +158,7 @@ Esta atividade será realizada em aula, seguindo orientações da professora, us
 ### StudentGrades.java
 
 
-Em [java01/StudentGrades.java](src/java01/StudentGrades.java):
+Em [java01/StudentGrades.java](src/java01/StudentGrades.java) com o arquivo [students.csv](src/java01/students.csv):
 
 1. Identifique 3 (ou mais) **semelhanças** entre Java e C presentes no código.
 2. Identifique 3 (ou mais) **diferenças** entre Java e C presentes no código.
