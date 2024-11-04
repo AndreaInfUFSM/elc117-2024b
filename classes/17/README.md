@@ -389,7 +389,7 @@ Por que linguagens orientadas a objetos costumam ter modificadores de acesso em 
 
 ### Circle no Codespaces
 
-- Crie um repositório e um Codespace para as práticas de Java clicando aqui:
+- Crie um repositório e um Codespace para as práticas de Java clicando aqui: https://classroom.github.com/a/nQO8mWN3
 
 - Baixe estes arquivos e adicione-os ao seu Codespace:
 
@@ -408,17 +408,35 @@ Por que linguagens orientadas a objetos costumam ter modificadores de acesso em 
   javac TestCircle
   ```
 
+### Circle na ligGDX
+
+Explore: classe Circle na biblioteca libGDX para desenvolvimento de games
+
+Código-fonte de Circle da libGDX: https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/math/Circle.java
+
+Exemplo de uso da classe Circle: [CircleDemo.java](https://github.com/AndreaInfUFSM/java-libgdx-extended-drop-example/blob/master/CircleDemo/core/src/main/java/com/badlogic/circledemo/CircleDemo.java)
+
+> Quais as semelhanças e diferenças entre Circle na libGDX e Circle nesta aula?
+
+<iframe src="https://andreainfufsm.github.io/gdx/circle/" width="100%" height="50%"  style="border:1px solid black;">
+</iframe>
   
 ### Crie sua classe
+
+<h4>Contexto</h4>
 
 Pense nos aplicativos, sistemas, plataformas que você usa diariamente, por exemplo ao ouvir música, assistir vídeos, comunicar com amigos, reservar almoço no RU, etc. É provável que muitos desses exemplos sejam implementados com programação orientada a objetos! 
 
 Nestes exemplos, você consegue identificar "objetos" de uma mesma "classe"? Que atributos caracterizam essa classe? (características que todos objetos da classe possuem, cada um com seu próprio valor). O que se pode fazer com objetos dessa classe? (métodos get/set, etc.).
 
+<h4>Requisitos</h4>
+
 
 Para responder a essas questões, você deverá criar uma classe em Java à sua escolha, considerando os seguintes requisitos:
 
-1. A classe deve conter **atributos** de pelo menos 2 tipos diferentes (algumas possibilidades: `String, int, double, boolean`, etc.).
+1. A classe deve conter **atributos** de pelo menos 2 tipos diferentes, por exemplo:
+
+   `String, int, double, boolean`, etc.
 
 2. A classe deve conter mais de um **construtor**.
 
@@ -426,13 +444,19 @@ Para responder a essas questões, você deverá criar uma classe em Java à sua 
 
 4. A classe deve conter um **método** que implemente alguma **operação** com um ou mais atributos (por exemplo, um teste de condição, um cálculo, uma operação com strings, etc.).
 
+<h4>Compile e execute</h4>
+
+
 Coloque seu código em um arquivo .java com o mesmo nome da classe. Por exemplo, se a classe fosse `Circle`, o arquivo seria `Circle.java`. 
 
 Compile seu código no Shell usando `javac`. Por exemplo:  `javac Circle.java`
 
-> Atenção! Certifique-se de sempre compilar o código que for modificado. Na dúvida, delete os arquivos .class anteriores (no Shell: `rm *.class`). Mais adiante veremos como automatizar isso.
+> Atenção! Certifique-se sempre de compilar o código que for modificado. Na dúvida, delete os arquivos .class anteriores (no Shell: `rm *.class`). É possível automatizar isso com gerenciadores de build, como Maven, Gradle, etc. (veremos mais adiante)
 
 ### Teste sua classe
+
+<h4>Requisitos</h4>
+
 
 Para testar sua classe, você vai criar um programa que:
 
@@ -441,6 +465,9 @@ Para testar sua classe, você vai criar um programa que:
 2. Dentro do `main`, **instancie** pelo menos **2 objetos** da classe que você criou.
 
 3. Para cada objeto criado, chame pelo menos **2 métodos** implementados.
+
+<h4>Compile e execute</h4>
+
 
 Coloque seu código em arquivo .java com o prefixo `Test` seguido do nome da classe criada. Por exemplo, se a classe fosse `Circle`, o arquivo seria `TestCircle.java`.
 
