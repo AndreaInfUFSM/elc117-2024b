@@ -15,10 +15,44 @@ comment:  Material de apoio para a disciplina
 
 translation: English  translations/English.md
 
-link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+script:   https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js
 
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 
+@onload
+mermaid.initialize({ startOnLoad: false });
+@end
+
+@mermaid: @mermaid_(@uid,```@0```)
+
+@mermaid_
+<script run-once="true" modify="false" style="display:block; background: white">
+async function draw () {
+    const graphDefinition = `@1`;
+    const { svg } = await mermaid.render('graphDiv_@0', graphDefinition);
+    send.lia("HTML: "+svg);
+    send.lia("LIA: stop")
+};
+
+draw()
+"LIA: wait"
+</script>
+@end
+
+@mermaid_eval: @mermaid_eval_(@uid)
+
+@mermaid_eval_
+<script>
+async function draw () {
+    const graphDefinition = `@input`;
+    const { svg } = await mermaid.render('graphDiv_@0', graphDefinition);
+    console.html(svg);
+    send.lia("LIA: stop")
+};
+
+draw()
+"LIA: wait"
+</script>
+@end
 
 
 -->
@@ -124,6 +158,21 @@ class Circle {
     return 3.1416 * r * r;
   }
 }
+```
+
+#### Representação em UML
+
+Unified Modeling Language (UML): https://en.wikipedia.org/wiki/Unified_Modeling_Language
+
+
+```mermaid @mermaid
+classDiagram
+    class Circle {
+        - double x
+        - double y
+        - double r
+        + double area()
+    }
 ```
 
 ### Objeto
