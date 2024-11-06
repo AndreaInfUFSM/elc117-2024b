@@ -15,9 +15,44 @@ comment:  Material de apoio para a disciplina
 
 translation: English  translations/English.md
 
-link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+script:   https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js
 
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+
+@onload
+mermaid.initialize({ startOnLoad: false });
+@end
+
+@mermaid: @mermaid_(@uid,```@0```)
+
+@mermaid_
+<script run-once="true" modify="false" style="display:block; background: white">
+async function draw () {
+    const graphDefinition = `@1`;
+    const { svg } = await mermaid.render('graphDiv_@0', graphDefinition);
+    send.lia("HTML: "+svg);
+    send.lia("LIA: stop")
+};
+
+draw()
+"LIA: wait"
+</script>
+@end
+
+@mermaid_eval: @mermaid_eval_(@uid)
+
+@mermaid_eval_
+<script>
+async function draw () {
+    const graphDefinition = `@input`;
+    const { svg } = await mermaid.render('graphDiv_@0', graphDefinition);
+    console.html(svg);
+    send.lia("LIA: stop")
+};
+
+draw()
+"LIA: wait"
+</script>
+@end
 
 
 -->
@@ -83,13 +118,49 @@ Os arquivos desta prática estão no repositório da disciplina. Você pode obt�
 
 > Nesta parte, você vai apenas analisar e executar os códigos fornecidos, como base para as partes seguintes. 
 
-Você vai trabalhar com arquivos na pasta `01-circles`. Os arquivos são os seguintes:
+Você vai trabalhar com arquivos na pasta `01-circles`. Os arquivos são os seguintes (conforme diagrama UML mais abaixo):
 
-- `Point.java`: contém uma classe que representa um ponto em um plano, com coordenadas X e Y
-- `Circle.java`: contém uma classe que representa um círculo, definido por um ponto central e um raio
-- `ListOfCircles.java`: contém classe com método `main` que cria vários objetos e os adiciona a uma lista
+- [Point.java](src/01-circles/Point.java): contém uma classe que representa um ponto em um plano, com coordenadas X e Y
+- [Circle.java](src/01-circles/Circle.java): contém uma classe que representa um círculo, definido por um ponto central e um raio
+- [ListOfCircles.java](src/01-circles/ListOfCircles.java): contém classe com método `main` que cria vários objetos e os adiciona a uma lista
 
 > ATENÇÃO: Os arquivos estão na pasta `elc117-2024b/classes/18/src/01-circles`
+
+
+```mermaid @mermaid
+classDiagram
+    direction LR 
+    class Circle {
+        - Point center
+        - double radius
+        + Circle()
+        + Circle(Point center, double radius)
+        + double area()
+    }
+
+    class ListOfCircles {
+        - static int MAX_CIRCLES
+        + main(String[] args)
+    }
+
+    class Point {
+        - double x
+        - double y
+        + Point()
+        + Point(double x, double y)
+        + void setXY(double x, double y)
+        + double getX()
+        + void setX(double x)
+        + double getY()
+        + void setY(double y)
+    }
+
+    Circle --> Point : has-a
+    ListOfCircles ..> Circle : uses
+```
+
+
+
 
 
 ### Alguns comandos Linux
@@ -189,6 +260,69 @@ Você vai trabalhar com arquivos na pasta `03-groups`. Os arquivos são os segui
 - `Group.java`: classe que representa um grupo de pesquisa da instituição. Um grupo pode ter estudantes e professores como membros. **Esta classe está incompleta!**
 - `Main.java`: classe contendo um método `main` que cria e manipula objetos das classes acima
 
+
+```mermaid @mermaid
+classDiagram
+    direction LR
+
+    class Group {
+        - String name
+        - ArrayList~Student~ students
+        - ArrayList~Professor~ professors
+        + Group()
+        + Group(String name)
+        + String getName()
+        + void setName(String name)
+        + void addMember(Student s)
+        + void addMember(Professor p)
+        + ArrayList~String~ getContactInfos()
+        + boolean userExists(String userId)
+        + int countMembers()
+    }
+
+    class Student {
+        - String name
+        - String userId
+        - String course
+        + Student()
+        + Student(String name, String userId, String course)
+        + String getName()
+        + void setName(String name)
+        + String getUserId()
+        + void setUserId(String userId)
+        + String getCourse()
+        + void setCourse(String course)
+        + String getContactInfo()
+    }
+
+    class Professor {
+        - String name
+        - String userId
+        - String room
+        - String building
+        + Professor()
+        + Professor(String name, String userId, String room, String building)
+        + String getName()
+        + void setName(String name)
+        + String getUserId()
+        + void setUserId(String userId)
+        + String getRoom()
+        + void setRoom(String room)
+        + String getBuilding()
+        + void setBuilding(String building)
+        + String getContactInfo()
+    }
+
+    class Main {
+        + main(String[] args)
+    }
+
+    Group --> "0..*" Student : has-a
+    Group --> "0..*" Professor : has-a
+    Main ..> Group : uses
+    Main ..> Student : uses
+    Main ..> Professor : uses
+```
 
 ### Completando o código
 
