@@ -183,13 +183,15 @@ Se estiver usando o Codespaces, aproveite esta prática para exercitar alguns co
 
 ### Analise os códigos
 
-1. Compile e execute o código na pasta `01-circles` (depois de percorrer as pastas com `cd` até chegar na):
+1. Compile e execute o código na pasta `01-circles` (depois de percorrer as pastas com `cd` até chegar na pasta desejada):
+
+
    ```
    cd 01-circles
    javac *.java
    java ListOfCircles
    ```
-   Obs:. 
+   
 
 2. Analise as classes `Point` e `Circle`. Note que cada uma delas é uma classe bem simples, como as que vimos na aula anterior.
 
