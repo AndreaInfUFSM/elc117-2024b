@@ -243,7 +243,7 @@
 <td>12/11/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação orientada a objetos.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/19/README.md">Programação orientada a objetos em Java</a>: herança</li>
 </ul></td>
 </tr>
 
@@ -252,7 +252,7 @@
 <td>14/11/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação orientada a objetos.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/20/README.md">Programação orientada a objetos em Java</a>: polimorfismo, classes abstratas, interfaces</li>
 </ul></td>
 </tr>
 
