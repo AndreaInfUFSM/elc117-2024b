@@ -452,18 +452,78 @@ classDiagram
 ![Imagem inspirada no domínio da biologia/genética, com uma árvore genealógica de insetos (joaninhas). No topo da árvore há duas joaninhas (pai-mãe) e abaixo delas há 4 descendentes. As descendentes têm características em comum com suas ascendentes, mas também possuem características próprias (padrões de pintas). A herança genética, exemplificada nesta imagem, serve de inspiração para a herança na programação orientada a objetos.](img/ladybug.png)
 
 
-### Exemplo: Student, Professor, Group
+### Problema: Student, Professor, Group
 
 Problema:
 
 - Classes Student e Professor têm alguns atributos idênticos (**redundância**): name, userId
 - Classe Group tem código redundante: 2 ArrayList, métodos com código **redundante** (mesmo algoritmo aplicado a Student e Professor)
 
-Solução: 
+Student.java
 
-- Criar uma classe Person com atributos/métodos comuns a Student e Professor
-- Criar Student e Professor como classes derivadas (que herdam atributos/métodos) de Person 
-- Em Group, substituir ArrayList<Student> e ArrayList<Professor> por ArrayList<Person>
+``` java
+public class Student {
+  private String name;
+  private String userId;
+  private String course;
+
+  // ...
+}
+```
+
+Professor.java
+
+``` java
+public class Professor {
+  private String name;
+  private String userId;
+  private String room;
+  private String building;
+
+  // ...
+}
+```
+
+Group.java
+
+``` java
+public class Group {
+  private String name;
+  private ArrayList<Student> students;
+  private ArrayList<Professor> professors;
+
+  // ...
+
+  public void addMember(Student s) {
+    this.students.add(s);
+  }
+
+  public void addMember(Professor p) {
+    this.professors.add(p);
+  }
+  
+  public ArrayList<String> getContactInfos() {
+    ArrayList<String> contact = new ArrayList<String>();
+    for (Student s: students) {
+      contact.add(s.getContactInfo());
+    }
+    for (Professor p: professors) {
+      contact.add(p.getContactInfo());
+    }
+    return contact;
+  }  
+
+}
+```
+
+### Solução do problema
+
+Eliminar redundância com herança:
+
+1. Criar uma classe Person com atributos/métodos comuns a Student e Professor
+2. Criar Student e Professor como classes derivadas (que herdam atributos/métodos) de Person 
+3. Em Group, substituir ArrayList<Student> e ArrayList<Professor> por ArrayList<Person>
+
 
 ### Em Java: `extends`
 
