@@ -369,7 +369,7 @@ Primeiro bimestre:
 Segundo bimestre:
 
 - Apresentação de exercícios (peso 4)
-- Projeto final de programação (peso 6): apresentações em 12/12
+- [Projeto final de programação](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/projects/game/README.md) (peso 6): apresentações em 12/12
 
 Avaliações finais / atividades de recuperação de avaliações: 17/12 e 19/12
 
