@@ -58,12 +58,18 @@ Este projeto tem como objetivos:
    - Adventure Quiz: https://polargames.com.br/preview/quiz-adventure-en/ (tem bug!)
    - entre outros - use a criatividade!
 
+   Opcionalmente, é possível incrementar algum jogo desenvolvido por estudantes no ano passado (boa opção para exercitar compreensão, manutenção e extensão de código):
 
-3. O código deve ser organizado em várias classes, aplicando adequadamente os conceitos de programação orientada a objetos.
+   - https://github.com/elc117/game-2023b-jbguesser
+   - https://github.com/elc117/game-2023b-jogoenzo
+   - outros em: https://github.com/orgs/elc117/repositories?q=game-2023b
 
-4. O jogo deverá funcionar na web, aproveitando os recursos que a libGDX oferece para jogos multiplataforma. A interação deve ser preferencialmente com **mouse/touch**, para possibilitar uso do jogo sem teclado.
 
-5. O jogo deve ser publicado na Game Jam criada para esta turma: https://itch.io/jam/games-paradigmas-programacao-ufsm-2024b
+4. O código deve ser organizado em várias classes, aplicando adequadamente os conceitos de programação orientada a objetos.
+
+5. O jogo deverá funcionar na web, aproveitando os recursos que a libGDX oferece para jogos multiplataforma. A interação deve ser preferencialmente com **mouse/touch**, para possibilitar uso do jogo sem teclado.
+
+6. O jogo deve ser publicado na Game Jam criada para esta turma: https://itch.io/jam/games-paradigmas-programacao-ufsm-2024b
 
 
 
