@@ -122,12 +122,14 @@ Muitos vídeos: https://www.youtube.com/hashtag/springboot
 
 ## Programação Concorrente
 
+Até então, você provavelmente só criou programas sequenciais...
+
+
 > Execução **sequencial** de tarefas: `main` executa A -> B -> C -> D
 
-![Imagem mostrando uma linha do tempo horizontal, representando a execução sequencial de um programa. A linha do tempo avança da esquerda para a direita. Na extremidade da esquerda, temos o nome da subrotina sendo executada (main). Ao longo da linha, temos tarefas A, B, C e D que compõem a subrotina.](img/Selection_008.png)
+![](img/not-sequential.gif)
 
 
-Até então, você provavelmente só criou programas sequenciais...
 
 
 ### Programação sequencial
