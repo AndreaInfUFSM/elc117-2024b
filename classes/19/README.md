@@ -930,6 +930,41 @@ Encontre mais jogos em:
 Sua empresa está desenvolvendo um software assistente na organização de tarefas (assignments) de disciplinas de faculdade. Uma das funcionalidades do software é a geração de mensagens de notificação sobre cada tarefa. As tarefas podem ser individuais ou em grupo, e tarefas em grupo têm dados adicionais. Você vai colaborar no desenvolvimento de algumas classes para resolver este problema.
 
 
+
+``` mermaid @mermaid
+classDiagram
+    direction LR
+
+    class Assignment {
+        -LocalDate dueDate
+        -String description
+        -boolean pending
+        -LocalDate submitDate
+        +Assignment(LocalDate dueDate, String description)
+        +String getDescription()
+        +boolean isPending()
+        +void complete(LocalDate date)
+        +int daysLeft()
+        -String status()
+        +String message()
+    }
+
+    class GroupAssignment {
+        -String teamMates
+        +GroupAssignment(LocalDate dueDate, String description, String teamMates)
+        +String message()
+    }
+
+    class TrackAssignments {
+        +main(String[] args)
+    }
+
+    TrackAssignments ..> Assignment : uses
+    GroupAssignment "1" --|> Assignment : inherits
+```
+
+
+
 1. Você vai trabalhar com arquivos na pasta `01-assignments`. Os arquivos são os seguintes:
 
    - [Assignment.java](src/01-assignments/Assignment.java):  classe que representa uma tarefa

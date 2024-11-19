@@ -504,6 +504,35 @@ Avance para ver os exercícios desta prática...
 
 ### ThreadRace
 
+``` mermaid @mermaid
+classDiagram
+    direction LR
+
+    class Rabbit {
+        -String name
+        +Rabbit(String name)
+        -void runLikeRabbit()
+        +void run()
+    }
+
+    class Turtle {
+        -String name
+        +Turtle(String name)
+        -void runLikeTurtle()
+        +void run()
+    }
+
+    class ThreadRace {
+        +main(String[] args)
+    }
+
+    ThreadRace ..> Rabbit : uses
+    ThreadRace ..> Turtle : uses
+    Rabbit --|> Thread : inherits
+    Turtle ..|> Runnable : implements
+
+```
+
 - Analise o código do programa [ThreadRace.java](src/ThreadRace.java).
 
 - Observe que este programa cria 2 threads concorrentes que representam animais em uma corrida: Rabbit e Turtle. O programa usa `extends Thread` e `implements Runnable`, conforme explicado nesta aula.
