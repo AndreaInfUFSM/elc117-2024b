@@ -270,7 +270,7 @@
 <td>21/11/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação orientada a objetos.</li>
+<li><a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/22/README.md">Programação concorrente e orientada a objetos em Java</a>: sincronização entre threads</li>
 </ul></td>
 </tr>
 
