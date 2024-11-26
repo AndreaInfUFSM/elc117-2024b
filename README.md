@@ -279,9 +279,8 @@
 <td>26/11/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação orientada a objetos.</li>
-<li>
-JAI: Jornada Acadêmica Integrada - DIAS LETIVOS reservados para atividades acadêmicas discentes na Jornada Acadêmica Integrada - JAI.</li>
+<li><a href="https://docs.google.com/document/d/1hcXfZVDW2Nkr9MbkHrb7FFAYoV_FBV5vbMIqkVUGu-U/edit?usp=sharing">Apresentações</a> sobre programação concorrente e orientada a objetos em Java</li>
+<li>JAI: Jornada Acadêmica Integrada - DIAS LETIVOS reservados para atividades acadêmicas discentes na Jornada Acadêmica Integrada - JAI.</li>  
 </ul></td>
 </tr>
 
@@ -290,9 +289,8 @@ JAI: Jornada Acadêmica Integrada - DIAS LETIVOS reservados para atividades acad
 <td>28/11/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação orientada a objetos.</li>
-<li>
-JAI: Jornada Acadêmica Integrada - DIAS LETIVOS reservados para atividades acadêmicas discentes na Jornada Acadêmica Integrada - JAI.</li>
+<li><a href="https://docs.google.com/document/d/1hcXfZVDW2Nkr9MbkHrb7FFAYoV_FBV5vbMIqkVUGu-U/edit?usp=sharing">Apresentações</a> sobre programação concorrente e orientada a objetos em Java</li>
+<li>JAI: Jornada Acadêmica Integrada - DIAS LETIVOS reservados para atividades acadêmicas discentes na Jornada Acadêmica Integrada - JAI.</li>
 </ul></td>
 </tr>
 
