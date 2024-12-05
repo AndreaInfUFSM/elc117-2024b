@@ -308,7 +308,7 @@
 <td>05/12/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Programação concorrente e orientada a objetos.</li>
+<li>Programação orientada a objetos: <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/25/README.md">game com libGDX</a></li>
 </ul></td>
 </tr>
 
