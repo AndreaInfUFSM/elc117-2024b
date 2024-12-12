@@ -317,7 +317,7 @@
 <td>10/12/2024</td>
 <td>Ter</td>
 <td><ul>
-<li>Programação concorrente e orientada a objetos.</li>
+<li>Programação orientada a objetos: <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/elc117-2024b/main/classes/25/README.md">game com libGDX</a></li>
 </ul></td>
 </tr>
 
@@ -326,7 +326,7 @@
 <td>12/12/2024</td>
 <td>Qui</td>
 <td><ul>
-<li>Apresentações de trabalhos finais de programação.</li>
+<li><a href="https://itch.io/jam/games-paradigmas-programacao-ufsm-2024b/entries">Apresentações de trabalhos finais de programação</a></li>
 </ul></td>
 </tr>
 
